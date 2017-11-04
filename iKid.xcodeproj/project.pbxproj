@@ -8,13 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		9D3787431FABA0EC002B5939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3787421FABA0EC002B5939 /* AppDelegate.swift */; };
-		9D3787451FABA0EC002B5939 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3787441FABA0EC002B5939 /* FirstViewController.swift */; };
-		9D3787471FABA0EC002B5939 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3787461FABA0EC002B5939 /* SecondViewController.swift */; };
 		9D37874A1FABA0EC002B5939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D3787481FABA0EC002B5939 /* Main.storyboard */; };
 		9D37874C1FABA0EC002B5939 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D37874B1FABA0EC002B5939 /* Assets.xcassets */; };
 		9D37874F1FABA0EC002B5939 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D37874D1FABA0EC002B5939 /* LaunchScreen.storyboard */; };
 		9D37875A1FABA0EC002B5939 /* iKidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3787591FABA0EC002B5939 /* iKidTests.swift */; };
 		9D3787651FABA0EC002B5939 /* iKidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3787641FABA0EC002B5939 /* iKidUITests.swift */; };
+		9D5176051FAE7A6300241393 /* BadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5175FC1FAE7A6300241393 /* BadVC.swift */; };
+		9D5176061FAE7A6300241393 /* JokeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D5175FD1FAE7A6300241393 /* JokeView.xib */; };
+		9D5176071FAE7A6300241393 /* ComicView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D5175FE1FAE7A6300241393 /* ComicView.xib */; };
+		9D5176081FAE7A6300241393 /* DadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5175FF1FAE7A6300241393 /* DadVC.swift */; };
+		9D5176091FAE7A6300241393 /* badjokes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9D5176001FAE7A6300241393 /* badjokes.txt */; };
+		9D51760A1FAE7A6300241393 /* dadjokes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9D5176011FAE7A6300241393 /* dadjokes.txt */; };
+		9D51760B1FAE7A6300241393 /* programmerjokes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9D5176021FAE7A6300241393 /* programmerjokes.txt */; };
+		9D51760C1FAE7A6300241393 /* AbsJokeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5176031FAE7A6300241393 /* AbsJokeVC.swift */; };
+		9D51760D1FAE7A6300241393 /* ProgrammerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5176041FAE7A6300241393 /* ProgrammerVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +44,6 @@
 /* Begin PBXFileReference section */
 		9D37873F1FABA0EC002B5939 /* iKid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iKid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D3787421FABA0EC002B5939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9D3787441FABA0EC002B5939 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		9D3787461FABA0EC002B5939 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		9D3787491FABA0EC002B5939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D37874B1FABA0EC002B5939 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D37874E1FABA0EC002B5939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,15 @@
 		9D3787601FABA0EC002B5939 /* iKidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iKidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D3787641FABA0EC002B5939 /* iKidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iKidUITests.swift; sourceTree = "<group>"; };
 		9D3787661FABA0EC002B5939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D5175FC1FAE7A6300241393 /* BadVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadVC.swift; sourceTree = "<group>"; };
+		9D5175FD1FAE7A6300241393 /* JokeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JokeView.xib; sourceTree = "<group>"; };
+		9D5175FE1FAE7A6300241393 /* ComicView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComicView.xib; sourceTree = "<group>"; };
+		9D5175FF1FAE7A6300241393 /* DadVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DadVC.swift; sourceTree = "<group>"; };
+		9D5176001FAE7A6300241393 /* badjokes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = badjokes.txt; sourceTree = "<group>"; };
+		9D5176011FAE7A6300241393 /* dadjokes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dadjokes.txt; sourceTree = "<group>"; };
+		9D5176021FAE7A6300241393 /* programmerjokes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = programmerjokes.txt; sourceTree = "<group>"; };
+		9D5176031FAE7A6300241393 /* AbsJokeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbsJokeVC.swift; sourceTree = "<group>"; };
+		9D5176041FAE7A6300241393 /* ProgrammerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgrammerVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +113,16 @@
 		9D3787411FABA0EC002B5939 /* iKid */ = {
 			isa = PBXGroup;
 			children = (
+				9D5176031FAE7A6300241393 /* AbsJokeVC.swift */,
+				9D5176001FAE7A6300241393 /* badjokes.txt */,
+				9D5175FC1FAE7A6300241393 /* BadVC.swift */,
+				9D5175FE1FAE7A6300241393 /* ComicView.xib */,
+				9D5176011FAE7A6300241393 /* dadjokes.txt */,
+				9D5175FF1FAE7A6300241393 /* DadVC.swift */,
+				9D5175FD1FAE7A6300241393 /* JokeView.xib */,
+				9D5176021FAE7A6300241393 /* programmerjokes.txt */,
+				9D5176041FAE7A6300241393 /* ProgrammerVC.swift */,
 				9D3787421FABA0EC002B5939 /* AppDelegate.swift */,
-				9D3787441FABA0EC002B5939 /* FirstViewController.swift */,
-				9D3787461FABA0EC002B5939 /* SecondViewController.swift */,
 				9D3787481FABA0EC002B5939 /* Main.storyboard */,
 				9D37874B1FABA0EC002B5939 /* Assets.xcassets */,
 				9D37874D1FABA0EC002B5939 /* LaunchScreen.storyboard */,
@@ -236,7 +257,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D37874F1FABA0EC002B5939 /* LaunchScreen.storyboard in Resources */,
+				9D51760B1FAE7A6300241393 /* programmerjokes.txt in Resources */,
+				9D51760A1FAE7A6300241393 /* dadjokes.txt in Resources */,
+				9D5176091FAE7A6300241393 /* badjokes.txt in Resources */,
+				9D5176061FAE7A6300241393 /* JokeView.xib in Resources */,
 				9D37874C1FABA0EC002B5939 /* Assets.xcassets in Resources */,
+				9D5176071FAE7A6300241393 /* ComicView.xib in Resources */,
 				9D37874A1FABA0EC002B5939 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D3787471FABA0EC002B5939 /* SecondViewController.swift in Sources */,
+				9D5176051FAE7A6300241393 /* BadVC.swift in Sources */,
+				9D51760D1FAE7A6300241393 /* ProgrammerVC.swift in Sources */,
 				9D3787431FABA0EC002B5939 /* AppDelegate.swift in Sources */,
-				9D3787451FABA0EC002B5939 /* FirstViewController.swift in Sources */,
+				9D51760C1FAE7A6300241393 /* AbsJokeVC.swift in Sources */,
+				9D5176081FAE7A6300241393 /* DadVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
