@@ -39,14 +39,12 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="tVc-Qj-caT" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="540" id="DAS-WQ-KoJ"/>
+                <constraint firstItem="tVc-Qj-caT" firstAttribute="bottom" secondItem="3z3-g6-adu" secondAttribute="bottom" id="029-za-kU7"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="tVc-Qj-caT" secondAttribute="trailing" constant="16" id="LMJ-Ce-Ipf"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="top" secondItem="3z3-g6-adu" secondAttribute="top" constant="20" id="N7S-CE-dxj"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="tVc-Qj-caT" secondAttribute="bottom" constant="50" id="cFd-aP-wSs"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="3z3-g6-adu" secondAttribute="trailing" id="jLR-0v-ARW"/>
                 <constraint firstItem="3z3-g6-adu" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" constant="-50" id="kRt-FV-xql"/>
                 <constraint firstItem="3z3-g6-adu" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="n4g-kf-q7Q"/>
-                <constraint firstItem="tVc-Qj-caT" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="302" id="nOH-aC-0Ay"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <point key="canvasLocation" x="34.5" y="53.5"/>
