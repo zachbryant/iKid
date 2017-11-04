@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Main" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="USL-Oa-40o">
+                    <rect key="frame" x="0.0" y="99" width="375" height="184"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Answer" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PLD-zP-EJs">
+                    <rect key="frame" x="0.0" y="291" width="375" height="167"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="167" id="vZv-CH-Siy"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6dp-D0-NUQ">
+                    <rect key="frame" x="302" y="516" width="57" height="57"/>
+                    <color key="backgroundColor" red="1" green="0.28350104442510315" blue="0.23723106940373628" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="57" id="EFX-OV-ABb"/>
+                    </constraints>
+                    <size key="titleShadowOffset" width="3" height="-3"/>
+                    <state key="normal" title="Next">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <real key="value" value="28.5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="PLD-zP-EJs" firstAttribute="top" secondItem="USL-Oa-40o" secondAttribute="bottom" constant="8" symbolic="YES" id="9f5-5d-ozv"/>
+                <constraint firstItem="USL-Oa-40o" firstAttribute="trailing" secondItem="PLD-zP-EJs" secondAttribute="trailing" id="Ehr-D2-6do"/>
+                <constraint firstItem="USL-Oa-40o" firstAttribute="leading" secondItem="PLD-zP-EJs" secondAttribute="leading" id="FAV-wm-qjN"/>
+                <constraint firstAttribute="bottom" secondItem="6dp-D0-NUQ" secondAttribute="bottom" constant="94" id="VXB-cK-gjq"/>
+                <constraint firstItem="PLD-zP-EJs" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ZgI-eq-JV3"/>
+                <constraint firstItem="6dp-D0-NUQ" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailingMargin" id="gup-1n-s0W"/>
+                <constraint firstItem="6dp-D0-NUQ" firstAttribute="top" secondItem="PLD-zP-EJs" secondAttribute="bottom" constant="58" id="tUW-Oh-Mx9"/>
+                <constraint firstItem="USL-Oa-40o" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="79" id="x6s-A6-Qzx"/>
+                <constraint firstItem="6dp-D0-NUQ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="302" id="z4w-LK-Q5u"/>
+                <constraint firstAttribute="trailing" secondItem="PLD-zP-EJs" secondAttribute="trailing" id="zua-KJ-SWh"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="34.5" y="53.5"/>
+        </view>
+    </objects>
+</document>

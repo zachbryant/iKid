@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  SecondViewController.swift
 //  iKid
 //
 //  Created by iGuest on 11/2/17.
@@ -8,11 +8,12 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class BadVC: AbsJokeVC {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        loadData("badjokes")
+        nextJoke()
     }
 
     override func didReceiveMemoryWarning() {
